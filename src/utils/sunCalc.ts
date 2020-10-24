@@ -63,6 +63,18 @@ export function getEquationOfCenter(T: number): number {
     return C;
 }
 
+export function getLongitude(T: number): number {
+    // TODO
+}
+
+export function getApparrentLongitude(T: number): number {
+    // TODO
+}
+
+export function getLatitude(T: number): number {
+    // TODO
+}
+
 export function getRadiusVector(T: number): number {
     const e = earthCalc.getEccentricity(T);
     const v = getTrueAnomaly(T);
